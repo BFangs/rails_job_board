@@ -1,0 +1,9 @@
+<h1>Rails Bridge Evil Corp.</h1>
+<p>not remotely suspicious...</p>
+
+<ul>
+<% @jobs.each do |job| %>
+  <li><b><%= job.title %>:</b> <i><%= job.description %></i></li>
+<% end %>
+</ul>
+<p><%= link_to "ewwwww gross", new_job_path	%></p>

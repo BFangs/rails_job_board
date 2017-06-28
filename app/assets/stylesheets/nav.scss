@@ -1,0 +1,22 @@
+header {
+  background: green;
+  padding: 10px;
+  ul {
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
